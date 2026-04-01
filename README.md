@@ -4,7 +4,7 @@ A command-line tool that converts text to speech with emotion-based voice modula
 
 ---
 
-## 🚀 Features
+## Features
 
 * **Emotion Detection** – Classifies text as positive, negative, or neutral using VADER sentiment analysis.
 * **Intensity Scaling** – Stronger emotions produce more pronounced changes in voice parameters.
@@ -13,7 +13,7 @@ A command-line tool that converts text to speech with emotion-based voice modula
 
 ---
 
-## 🛠️ Setup
+## Setup
 
 ### Prerequisites
 
@@ -25,8 +25,8 @@ A command-line tool that converts text to speech with emotion-based voice modula
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/ai-intern-assessment.git
-   cd ai-intern-assessment/empathy_engine
+   git clone https://github.com/jameel-azad/empathy_engine.git
+   cd empathy_engine
    ```
 
 2. **Create a virtual environment (recommended)**
@@ -61,7 +61,7 @@ A command-line tool that converts text to speech with emotion-based voice modula
 
 ---
 
-## ▶️ Usage
+## Usage
 
 Run the script from the command line:
 
@@ -93,21 +93,7 @@ If no text is provided, the script will prompt for input.
 
 ---
 
-## 🔊 TTS Engine Notes
-
-* **Windows / macOS**
-  Uses built-in system TTS engines (SAPI5 / NSSpeechSynthesizer). No extra setup required.
-
-* **Linux**
-  Install `espeak`:
-
-  ```bash
-  sudo apt update && sudo apt install espeak
-  ```
-
----
-
-## 🧠 Design Choices
+## Design Choices
 
 ### Emotion Detection
 
@@ -158,7 +144,7 @@ These are reliably supported by `pyttsx3`.
 
 ---
 
-## 🧪 Testing Examples
+## Testing Examples
 
 | Input Text               | Emotion  | Rate | Volume |
 | ------------------------ | -------- | ---- | ------ |
