@@ -23,4 +23,15 @@ A command-line tool that converts text to speech with emotion-based voice modula
    cd empathy_engine
    ```
 
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the script**
+   ```bash
+   python empathy_engine.py "Your text here"
+   ```
+   
+
 
