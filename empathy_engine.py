@@ -7,10 +7,9 @@ def detect_emotion(text):
     analyzer = SentimentIntensityAnalyzer()
     scores = analyzer.polarity_scores(text)
     compound = scores['compound']
-    # Intensity: -1 to 1 scale to rate and volume
     if compound >= 0.05:
         emotion = "positive"
-        intensity = min(compound, 1.0)  # 0.05 to 1.0
+        intensity = min(compound, 1.0)
     elif compound <= -0.05:
         emotion = "negative"
         intensity = min(abs(compound), 1.0)
